@@ -1,0 +1,273 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v21.7.3
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install aoi.js aoi.canvas
+7 verbose argv "install" "aoi.js" "aoi.canvas"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2025-01-23T02_59_07_468Z-
+9 verbose logfile /home/container/.npm/_logs/2025-01-23T02_59_07_468Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:307232768 maxSize:76808192 maxEntrySize:38404096
+13 silly idealTree buildDeps
+14 silly fetch manifest aoi.canvas@^3.0.10
+15 silly packumentCache full:https://registry.npmjs.org/aoi.canvas cache-miss
+16 http cache https://registry.npmjs.org/aoi.canvas 91ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/aoi.canvas set size:50965 disposed:false
+18 silly fetch manifest aoi.js@^6.9.0
+19 silly packumentCache full:https://registry.npmjs.org/aoi.js cache-miss
+20 http cache https://registry.npmjs.org/aoi.js 5ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/aoi.js set size:1135829 disposed:false
+22 silly placeDep ROOT aoi.canvas@3.0.10 REPLACE for: Hiro@1.0.0 want: ^3.0.10
+23 silly placeDep ROOT aoi.js@6.9.0 REPLACE for: Hiro@1.0.0 want: ^6.9.0
+24 silly reify moves {}
+25 silly audit bulk request {
+25 silly audit   '@aoijs/aoi.db': [ '0.0.0' ],
+25 silly audit   '@aoijs/aoi.structures': [ '1.0.0' ],
+25 silly audit   '@discordjs/builders': [ '1.10.0' ],
+25 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+25 silly audit   '@discordjs/formatters': [ '0.6.0' ],
+25 silly audit   '@discordjs/rest': [ '2.4.2' ],
+25 silly audit   undici: [ '6.19.8', '6.21.1' ],
+25 silly audit   '@discordjs/util': [ '1.1.1' ],
+25 silly audit   '@discordjs/ws': [ '1.2.0' ],
+25 silly audit   '@mongodb-js/saslprep': [ '1.1.9' ],
+25 silly audit   '@napi-rs/canvas': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-android-arm64': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-darwin-arm64': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-darwin-x64': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-linux-arm-gnueabihf': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-linux-arm64-gnu': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-linux-arm64-musl': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-linux-x64-gnu': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-linux-x64-musl': [ '0.1.49' ],
+25 silly audit   '@napi-rs/canvas-win32-x64-msvc': [ '0.1.49' ],
+25 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+25 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+25 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+25 silly audit   '@types/node': [ '22.10.7' ],
+25 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+25 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+25 silly audit   '@types/ws': [ '8.5.13' ],
+25 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+25 silly audit   ajv: [ '6.12.6' ],
+25 silly audit   'ansi-styles': [ '4.3.0' ],
+25 silly audit   asn1: [ '0.2.6' ],
+25 silly audit   'assert-plus': [ '1.0.0' ],
+25 silly audit   asynckit: [ '0.4.0' ],
+25 silly audit   'aws-sign2': [ '0.7.0' ],
+25 silly audit   aws4: [ '1.13.2' ],
+25 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+25 silly audit   bson: [ '6.10.1' ],
+25 silly audit   caseless: [ '0.12.0' ],
+25 silly audit   chalk: [ '4.1.2' ],
+25 silly audit   chownr: [ '2.0.0' ],
+25 silly audit   'color-convert': [ '2.0.1' ],
+25 silly audit   'color-name': [ '1.1.4' ],
+25 silly audit   'combined-stream': [ '1.0.8' ],
+25 silly audit   contentstream: [ '1.0.0' ],
+25 silly audit   'core-util-is': [ '1.0.3', '1.0.2' ],
+25 silly audit   'cwise-compiler': [ '1.1.3' ],
+25 silly audit   dashdash: [ '1.14.1' ],
+25 silly audit   'data-uri-to-buffer': [ '0.0.3' ],
+25 silly audit   debug: [ '4.4.0' ],
+25 silly audit   'delayed-stream': [ '1.0.0' ],
+25 silly audit   'discord-api-types': [ '0.37.117' ],
+25 silly audit   'discord.js': [ '14.17.3' ],
+25 silly audit   'ecc-jsbn': [ '0.1.2' ],
+25 silly audit   extend: [ '3.0.2' ],
+25 silly audit   extsprintf: [ '1.3.0' ],
+25 silly audit   'fast-deep-equal': [ '3.1.3' ],
+25 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+25 silly audit   'forever-agent': [ '0.6.1' ],
+25 silly audit   'form-data': [ '2.3.3' ],
+25 silly audit   'fs-minipass': [ '2.1.0' ],
+25 silly audit   minipass: [ '3.3.6', '5.0.0' ],
+25 silly audit   'get-pixels-frame-info-update': [ '3.3.2' ],
+25 silly audit   getpass: [ '0.1.7' ],
+25 silly audit   'gif-encoder': [ '0.4.3' ],
+25 silly audit   'gif-encoder-2': [ '1.0.5' ],
+25 silly audit   'readable-stream': [ '1.1.14', '1.0.34' ],
+25 silly audit   'gif-frames': [ '1.0.1' ],
+25 silly audit   'har-schema': [ '2.0.0' ],
+25 silly audit   'har-validator': [ '5.1.5' ],
+25 silly audit   'has-flag': [ '4.0.0' ],
+25 silly audit   'http-signature': [ '1.2.0' ],
+25 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+25 silly audit   'iota-array': [ '1.0.0' ],
+25 silly audit   'is-buffer': [ '1.1.6' ],
+25 silly audit   'is-typedarray': [ '1.0.0' ],
+25 silly audit   isarray: [ '0.0.1' ],
+25 silly audit   isstream: [ '0.1.2' ],
+25 silly audit   'jpeg-js': [ '0.3.7' ],
+25 silly audit   jsbn: [ '0.1.1' ],
+25 silly audit   'json-schema': [ '0.4.0' ],
+25 silly audit   'json-schema-traverse': [ '0.4.1' ],
+25 silly audit   'json-stringify-safe': [ '5.0.1' ],
+25 silly audit   jsonparse: [ '1.3.1' ],
+25 silly audit   jsonrepair: [ '3.11.2' ],
+25 silly audit   JSONStream: [ '1.3.5' ],
+25 silly audit   jsprim: [ '1.4.2' ],
+25 silly audit   kareem: [ '2.6.3' ],
+25 silly audit   lodash: [ '4.17.21' ],
+25 silly audit   'lodash.snakecase': [ '4.1.1' ],
+25 silly audit   'magic-bytes.js': [ '1.10.0' ],
+25 silly audit   'memory-pager': [ '1.5.0' ],
+25 silly audit   'mime-db': [ '1.52.0' ],
+25 silly audit   'mime-types': [ '2.1.35' ],
+25 silly audit   minizlib: [ '2.1.2' ],
+25 silly audit   mkdirp: [ '1.0.4' ],
+25 silly audit   mongodb: [ '6.12.0' ],
+25 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+25 silly audit   mongoose: [ '8.9.5' ],
+25 silly audit   mpath: [ '0.9.0' ],
+25 silly audit   mquery: [ '5.0.0' ],
+25 silly audit   ms: [ '2.1.3' ],
+25 silly audit   'multi-integer-range': [ '3.0.0' ],
+25 silly audit   ndarray: [ '1.0.19' ],
+25 silly audit   'ndarray-ops': [ '1.2.2' ],
+25 silly audit   'ndarray-pack': [ '1.2.1' ],
+25 silly audit   'node-bitmap': [ '0.0.1' ],
+25 silly audit   'oauth-sign': [ '0.9.0' ],
+25 silly audit   omggif: [ '1.0.10' ],
+25 silly audit   'parse-data-uri': [ '0.2.0' ],
+25 silly audit   path: [ '0.12.7' ],
+25 silly audit   'performance-now': [ '2.1.0' ],
+25 silly audit   pngjs: [ '3.4.0' ],
+25 silly audit   'pngjs-nozlib': [ '1.0.0' ],
+25 silly audit   process: [ '0.11.10' ],
+25 silly audit   psl: [ '1.15.0' ],
+25 silly audit   punycode: [ '2.3.1' ],
+25 silly audit   qs: [ '6.5.3' ],
+25 silly audit   request: [ '2.88.2' ],
+25 silly audit   'safe-buffer': [ '5.2.1' ],
+25 silly audit   'safer-buffer': [ '2.1.2' ],
+25 silly audit   'save-pixels-jpeg-js-upgrade': [ '2.3.4-jpeg-js-upgrade.0' ],
+25 silly audit   sift: [ '17.1.3' ],
+25 silly audit   'sorted-btree': [ '1.8.1' ],
+25 silly audit   'sparse-bitfield': [ '3.0.3' ],
+25 silly audit   sshpk: [ '1.18.0' ],
+25 silly audit   string_decoder: [ '0.10.31' ],
+25 silly audit   'supports-color': [ '7.2.0' ],
+25 silly audit   tar: [ '6.2.1' ],
+25 silly audit   through: [ '2.3.8' ],
+25 silly audit   'tough-cookie': [ '2.5.0' ],
+25 silly audit   tr46: [ '5.0.0' ],
+25 silly audit   'ts-mixer': [ '6.0.4' ],
+25 silly audit   tslib: [ '2.8.1' ],
+25 silly audit   'tunnel-agent': [ '0.6.0' ],
+25 silly audit   tweetnacl: [ '0.14.5' ],
+25 silly audit   'undici-types': [ '6.20.0' ],
+25 silly audit   uniq: [ '1.0.1' ],
+25 silly audit   'uri-js': [ '4.4.1' ],
+25 silly audit   util: [ '0.10.4' ],
+25 silly audit   uuid: [ '3.4.0' ],
+25 silly audit   verror: [ '1.10.0' ],
+25 silly audit   'webidl-conversions': [ '7.0.0' ],
+25 silly audit   'whatwg-url': [ '14.1.0' ],
+25 silly audit   ws: [ '8.18.0' ],
+25 silly audit   yallist: [ '4.0.0' ],
+25 silly audit   'aoi.canvas': [ '3.0.10' ],
+25 silly audit   'aoi.js': [ '6.9.0' ]
+25 silly audit }
+26 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-win32-x64-msvc
+27 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-win32-x64-msvc' ]
+28 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-linux-arm64-musl
+29 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-linux-arm64-musl' ]
+30 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-linux-arm64-gnu
+31 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-linux-arm64-gnu' ]
+32 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-linux-arm-gnueabihf
+33 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-linux-arm-gnueabihf' ]
+34 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-darwin-x64
+35 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-darwin-x64' ]
+36 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-darwin-arm64
+37 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-darwin-arm64' ]
+38 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-android-arm64
+39 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-android-arm64' ]
+40 http cache @napi-rs/canvas-linux-x64-musl@https://registry.npmjs.org/@napi-rs/canvas-linux-x64-musl/-/canvas-linux-x64-musl-0.1.49.tgz 0ms (cache hit)
+41 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 703ms
+42 silly audit report {
+42 silly audit report   'jpeg-js': [
+42 silly audit report     {
+42 silly audit report       id: 1093580,
+42 silly audit report       url: 'https://github.com/advisories/GHSA-w7q9-p3jq-fmhm',
+42 silly audit report       title: 'Uncontrolled resource consumption in jpeg-js',
+42 silly audit report       severity: 'moderate',
+42 silly audit report       vulnerable_versions: '<0.4.0',
+42 silly audit report       cwe: [Array],
+42 silly audit report       cvss: [Object]
+42 silly audit report     },
+42 silly audit report     {
+42 silly audit report       id: 1088964,
+42 silly audit report       url: 'https://github.com/advisories/GHSA-xvf7-4v9q-58w6',
+42 silly audit report       title: 'Infinite loop in jpeg-js',
+42 silly audit report       severity: 'high',
+42 silly audit report       vulnerable_versions: '<0.4.4',
+42 silly audit report       cwe: [Array],
+42 silly audit report       cvss: [Object]
+42 silly audit report     }
+42 silly audit report   ],
+42 silly audit report   request: [
+42 silly audit report     {
+42 silly audit report       id: 1096727,
+42 silly audit report       url: 'https://github.com/advisories/GHSA-p8p7-x288-28g6',
+42 silly audit report       title: 'Server-Side Request Forgery in Request',
+42 silly audit report       severity: 'moderate',
+42 silly audit report       vulnerable_versions: '<=2.88.2',
+42 silly audit report       cwe: [Array],
+42 silly audit report       cvss: [Object]
+42 silly audit report     }
+42 silly audit report   ],
+42 silly audit report   'tough-cookie': [
+42 silly audit report     {
+42 silly audit report       id: 1097682,
+42 silly audit report       url: 'https://github.com/advisories/GHSA-72xf-g2v4-qvf3',
+42 silly audit report       title: 'tough-cookie Prototype Pollution vulnerability',
+42 silly audit report       severity: 'moderate',
+42 silly audit report       vulnerable_versions: '<4.1.3',
+42 silly audit report       cwe: [Array],
+42 silly audit report       cvss: [Object]
+42 silly audit report     }
+42 silly audit report   ]
+42 silly audit report }
+43 silly packumentCache corgi:https://registry.npmjs.org/jpeg-js cache-miss
+44 silly packumentCache corgi:https://registry.npmjs.org/request cache-miss
+45 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie cache-miss
+46 info run @napi-rs/canvas-linux-x64-musl@0.1.49 install node_modules/@napi-rs/canvas-linux-x64-musl node install.js
+47 http cache https://registry.npmjs.org/jpeg-js 23ms (cache hit)
+48 silly packumentCache corgi:https://registry.npmjs.org/jpeg-js set size:18627 disposed:false
+49 http cache https://registry.npmjs.org/request 28ms (cache hit)
+50 silly packumentCache corgi:https://registry.npmjs.org/request set size:129997 disposed:false
+51 http cache https://registry.npmjs.org/tough-cookie 81ms (cache hit)
+52 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie set size:47994 disposed:false
+53 silly packumentCache corgi:https://registry.npmjs.org/get-pixels-frame-info-update cache-miss
+54 silly packumentCache corgi:https://registry.npmjs.org/save-pixels-jpeg-js-upgrade cache-miss
+55 info run @napi-rs/canvas-linux-x64-musl@0.1.49 install { code: 1, signal: null }
+56 verbose reify failed optional dependency /home/container/node_modules/@napi-rs/canvas-linux-x64-musl
+57 silly reify mark deleted [ '/home/container/node_modules/@napi-rs/canvas-linux-x64-musl' ]
+58 http cache https://registry.npmjs.org/get-pixels-frame-info-update 14ms (cache hit)
+59 silly packumentCache corgi:https://registry.npmjs.org/get-pixels-frame-info-update set size:1989 disposed:false
+60 http cache https://registry.npmjs.org/save-pixels-jpeg-js-upgrade 13ms (cache hit)
+61 silly packumentCache corgi:https://registry.npmjs.org/save-pixels-jpeg-js-upgrade set size:1039 disposed:false
+62 silly packumentCache corgi:https://registry.npmjs.org/gif-frames cache-miss
+63 http cache https://registry.npmjs.org/gif-frames 198ms (cache hit)
+64 silly packumentCache corgi:https://registry.npmjs.org/gif-frames set size:10083 disposed:false
+65 silly packumentCache corgi:https://registry.npmjs.org/aoi.canvas cache-miss
+66 http cache https://registry.npmjs.org/aoi.canvas 3ms (cache hit)
+67 silly packumentCache corgi:https://registry.npmjs.org/aoi.canvas set size:19983 disposed:false
+68 silly ADD
+69 silly ADD
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 silly ADD
+76 verbose cwd /home/container
+77 verbose os Linux 6.1.0-28-amd64
+78 verbose node v21.7.3
+79 verbose npm  v10.9.2
+80 verbose exit 0
+81 info ok

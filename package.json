@@ -1,0 +1,18 @@
+{
+  "name": "Hiro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.canvas": "^3.0.10",
+    "aoi.js": "^6.9.0",
+    "discord.js": "^14.17.2",
+    "mongoose": "^8.9.3",
+    "path": "^0.12.7"
+  }
+}
